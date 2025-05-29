@@ -22,7 +22,7 @@ interface MetaValue {
 const metaValues: MetaValue[] = [
   {
     name: 'title',
-    regex: /title="(?<value>[^"]*)"/,
+    regex: /title="([^"]*)"/,
   },
 ];
 
